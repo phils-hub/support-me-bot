@@ -1,0 +1,139 @@
+{
+  "supportedLanguages": {
+    "English": "en",
+    "Deutsch": "de",
+    "Français": "fr"
+  },
+  "skipWords": [
+    "Skip",
+    "Überspringen",
+    "Passer"
+  ],
+  "conversations": {
+    "language": {
+      "message": "Hello, my name is Eli. In which language would you like to proceed?\n\nHallo, ich bin Eli. In welcher Sprache möchtest Du fortfahren?\n\nBonjour, je m’appelle Eli. Dans quelle langue aimeriez-vous continuer ?",
+      "answers": [["English", "Deutsch", "Français"]]
+    },
+    "incident": {
+      "translations": {
+        "en": {
+          "message": "Great, let’s continue in English.\n\nIf you (or a friend or a relative) have been the victim of abuse or of physical violence, you’ve come to the right place. In just a few steps, I can help you look for people who will support you.\n\nWhich of the following best describes the reason for the abuse or the attack you experienced?",
+          "answers": [["Racism, anti-semitism or anti-islamism", "Homophobia, anti-LGBTQ"], ["Gender-related", "Other or not sure"]]
+        },
+        "de": {
+          "message": "Super, lass uns deutsch sprechen.\n\nFalls Du (oder jemand, den Du kennst) Beleidigungen oder Gewalt erfahren hast, bist Du an der richtigen Stelle. In einigen kurzen Schritten suche ich Dir Menschen, die Dir helfen können.\n\nWas steckt, Deiner Meinung nach, hinter den Geschehnissen?",
+          "answers": [["Rassismus, Anti-Semitismus oder Anti-Islamismus", "Homophobie, anti-LGBTQ"], ["Gender, Geschlecht", "Keins von denen oder nicht sicher"]]
+        },
+        "fr": {
+          "message": "Super, continuons en français.\n\nSi vous (ou un/une de vos proches) avez été victime de l’abus ou de la violence corporelle, vous êtes donc venu(e) au bon endroit. Dans quelques petites démarches, je vais pouvoir vous aider à trouver des personnes qui pourront ensuite vous apporter du soutien.\n\nLaquelle des réponses suivantes décrit le mieux l’abus ou l’attaque que vous avez vécu(e)?",
+          "answers": [["Le racisme, l’antisémitisme ou l’anti-islamisme", "La homophobie (ou tout comportement contre les LGBTQ)"], ["Des incidents liés à votre genre", "Autre ou pas sûr/sure"]]
+        }      
+      }
+    },
+    "location": {
+      "translations": {
+        "en": {
+          "message": "To help me find the best results for you, please allow me to access your location.\n\nAlternatively, you can type any valid German postcode (ZIP code) below.",
+          "answers": [[{ "text": "Send my approximate location", "request_location": true }]]
+        },
+        "de": {
+          "message": "Um die am nächstgelegenen Hilfsorganisationen zu finden, brauche ich Deinen ungefähren Standort.\n\nAlternativ kannst Du eine gültige Postleitzahl angeben.",
+          "answers": [[{ "text": "Ungefähren Standort senden.", "request_location": true }]]
+        },
+        "fr": {
+          "message": "Afin de m’aider à trouver les meilleurs résultats pour vous, veuillez me permettre d’accéder à votre géolocalisation.\n\nSinon, vous pouvez aussi saisir votre code postal (ZIP code) allemand dans le champs ci-dessous.",
+          "answers": [[{ "text": "Envoyer ma location approximative.", "request_location": true }]]
+        }
+      }
+    },
+    "age": {
+      "translations": {
+        "en": {
+          "message": "To select the best results for you, I would like to know a few personal details.\n\nHow old are you?",
+          "answers": [["Under 18", "Over 18", "Skip"]]
+        },
+        "de": {
+          "message": "Als nächstes würde ich gerne ein paar persönliche Details von dir erfahren.\n\nWie alt bist Du etwa?",
+          "answers": [["Unter 18", "Über 18", "Überspringen"]]
+        },
+        "fr": {
+          "message": "Afin de vous trouver des résultats optimaux, j’aimerais bien connaître certains renseignements personnels.\n\nQuel âge avez-vous?",
+          "answers": [["Moins de 18 ans", "Plus de 18 ans", "Passer"]]
+        }
+      }
+    },
+    "gender": {
+      "translations": {
+        "en": {
+          "message": "What is your gender?",
+          "answers": [["Male", "Female", "Other", "Skip"]]
+        },
+        "de": {
+          "message": "Was ist Dein Geschlecht?",
+          "answers": [["Männlich", "Weiblich", "Anderes Geschlecht", "Überspringen"]]
+        },
+        "fr": {
+          "message": "De quel sexe êtes-vous?",
+          "answers": [["Masculin", "Féminin", "Autre", "Passer"]]
+        }
+      }
+    },
+    "religion": {
+      "translations": {
+        "en": {
+          "message": "What is your religion?",
+          "answers": [["Muslim", "Jewish", "Christian"], ["Other", "None", "Skip"]]
+        },
+        "de": {
+          "message": "Was ist Deine Religion?",
+          "answers": [["Muslimisch", "Jüdisch", "Christlich"], ["Andere Religion", "Keine", "Überspringen"]]
+        },
+        "fr": {
+          "message": "Quelle est votre religion?",
+          "answers": [["L’Islam", "Le Judaïsme", "Le Christianisme"], ["Autre", "Aucune", "Passer"]]
+        }
+      }
+    },
+    "done": {
+      "translations": {
+        "en": {
+          "message": "Here is the closest place where you can find help:\n\n$\n\nI hope you found this easy and helpful.\n\nOne last thing: I will keep the information you provided for statistical purposes. I will only share statistical data with other organisations, no individual cases will be shared.\n\nTo find out more about me or to send feedback, please visit elithebot.com"
+        },
+        "de": {
+          "message": "Die folgende Liste von Organisationen ist speziell für dich geordnet. Die, die deine Bedürfnisse am besten erfüllen sollten, sind ganz oben, aber auch die anderen werden die weiterhelfen.\n\n$\n\nIch hoffe ich konnte Dir helfen. Eine letzte Sache: deine Antworten werden nur zu statistischen Zwecken benutzt. Die Statistik dient ausschließlich der Förderung der Ziele des Eli the Bot e.V.: Aufklärung über und Prävention von ausgrenzenden Beleidigungen und Gewalt. Keine einzelnen Informationen werden weitergegeben. "
+        },
+        "fr": {
+          "message": "Voici l’endroit le plus proche où vous pouvez trouver de l’aide:\n\n$\n\nJ’espère que vous avez trouvé cette démarche simple et pratique.\n\nUne dernière chose: je garderai l’information donnée pour des buts statistiques; je partagerai seulement des données statistiques et non des cas particuliers avec d’autres organisations.\n\nAfin d’obtenir davantage d’information ou afin de nous envoyer vos commentaires, veuillez nous adresser un mail à elithebot.com"
+        }
+      }
+    }
+  },
+  "errors": {
+    "invalidStage": {
+      "translations": {
+        "en": {
+          "message": "You missed some questions. Please /start again."
+        },
+        "de": {
+          "message": "You missed some questions. Please /start again."
+        },
+        "fr": {
+          "message": "You missed some questions. Please /start again."
+        }
+      }
+    },
+    "invalidInput": {
+      "translations": {
+        "en": {
+          "message": "Sorry, I cannot understand what you have said. Please use the buttons to interact with me."
+        },
+        "de": {
+          "message": "Sorry, I cannot understand what you have said. Please use the buttons to interact with me."
+        },
+        "fr": {
+          "message": "Sorry, I cannot understand what you have said. Please use the buttons to interact with me."
+        }
+      }
+    }
+  }
+}

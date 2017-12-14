@@ -1,0 +1,28 @@
+{
+  "name": "support-me-bot",
+  "version": "0.0.1",
+  "description": "Node Bot",
+  "main": "support-me-bot.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node support-me-bot.js",
+    "zip": "del-cli 'dist/*' '!dist/.env' && zip -r dist/support-me-bot.zip . -x 'test/*' -x '.git/*' -x 'node_modules/*' -x 'samples/*' -x 'package-lock.json' -x '*.log' -x '*.md' -x '.env' -x 'dist/*' && zip -j dist/support-me-bot.zip dist/.env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phils-hub/support-me-bot.git"
+  },
+  "author": "phils-hub",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "geodist": "^0.2.1",
+    "lodash": "^4.17.4",
+    "node-telegram-bot-api": "^0.28.0"
+  },
+  "devDependencies": {
+    "del-cli": "^1.1.0",
+    "unit.js": "^2.0.0"
+  }
+}
