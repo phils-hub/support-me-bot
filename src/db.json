@@ -11,7 +11,7 @@
   ],
   "conversations": {
     "language": {
-      "message": "Hello, my name is Eli. In which language would you like to proceed?\n\nHallo, ich bin Eli. In welcher Sprache möchtest Du fortfahren?\n\nBonjour, je m’appelle Eli. Dans quelle langue aimeriez-vous continuer ?",
+      "message": "Hello. In which language would you like to proceed?\n\nHallo. In welcher Sprache möchtest Du fortfahren?\n\nBonjour. Dans quelle langue aimeriez-vous continuer ?",
       "answers": [["English", "Deutsch", "Français"]]
     },
     "incident": {
@@ -97,13 +97,13 @@
     "done": {
       "translations": {
         "en": {
-          "message": "Here is the closest place where you can find help:\n\n$\n\nI hope you found this easy and helpful.\n\nOne last thing: I will keep the information you provided for statistical purposes. I will only share statistical data with other organisations, no individual cases will be shared.\n\nTo find out more about me or to send feedback, please visit elithebot.com"
+          "message": "Here is the closest place where you can find help:\n\n$\n\nI hope you found this easy and helpful."
         },
         "de": {
-          "message": "Die folgende Liste von Organisationen ist speziell für dich geordnet. Die, die deine Bedürfnisse am besten erfüllen sollten, sind ganz oben, aber auch die anderen werden die weiterhelfen.\n\n$\n\nIch hoffe ich konnte Dir helfen. Eine letzte Sache: deine Antworten werden nur zu statistischen Zwecken benutzt. Die Statistik dient ausschließlich der Förderung der Ziele des Eli the Bot e.V.: Aufklärung über und Prävention von ausgrenzenden Beleidigungen und Gewalt. Keine einzelnen Informationen werden weitergegeben. "
+          "message": "Die folgende Liste von Organisationen ist speziell für dich geordnet. Die, die deine Bedürfnisse am besten erfüllen sollten, sind ganz oben, aber auch die anderen werden die weiterhelfen.\n\n$\n\nIch hoffe ich konnte Dir helfen."
         },
         "fr": {
-          "message": "Voici l’endroit le plus proche où vous pouvez trouver de l’aide:\n\n$\n\nJ’espère que vous avez trouvé cette démarche simple et pratique.\n\nUne dernière chose: je garderai l’information donnée pour des buts statistiques; je partagerai seulement des données statistiques et non des cas particuliers avec d’autres organisations.\n\nAfin d’obtenir davantage d’information ou afin de nous envoyer vos commentaires, veuillez nous adresser un mail à elithebot.com"
+          "message": "Voici l’endroit le plus proche où vous pouvez trouver de l’aide:\n\n$\n\nJ’espère que vous avez trouvé cette démarche simple et pratique."
         }
       }
     }
